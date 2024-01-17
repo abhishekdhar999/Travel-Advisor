@@ -13,7 +13,7 @@ export default function Map({setCoordinates,setBounds,coordinates,places,setChil
       <div className='h-[85vh] w-[100-%]'>
       
         <GoogleMapReact
-        // 'AIzaSyCu_QP8klV3Ha0_-ZD0P5vq0X1E5oHnB8I'}
+        
         bootstrapURLKeys={{key:""}}
         defaultCenter={coordinates}
         center = {coordinates}
